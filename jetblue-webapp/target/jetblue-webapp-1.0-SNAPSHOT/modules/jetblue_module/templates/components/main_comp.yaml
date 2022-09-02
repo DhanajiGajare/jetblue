@@ -1,0 +1,4 @@
+title: main_comp
+renderType: freemarker
+templateScript: /jetblue_module/templates/components/main_comp.ftl
+dialog: jetblue_module:components/main_comp

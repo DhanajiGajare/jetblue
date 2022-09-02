@@ -1,0 +1,15 @@
+form:
+  tabs:
+    - name: tabText
+      label: page propertice
+      fields:
+        - name: title
+          fieldType: text
+          label: Title
+          rows: 1
+          maxLength: 50
+actions:
+  commit: 
+    class:  info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel: 
+    class:  info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition 

@@ -1,0 +1,30 @@
+form:
+  tabs:
+    - name: tabText
+      label: Text
+      fields:
+        - name: message
+          fieldType: switchable
+          label: Message
+          options:
+            - name: plainText
+              label: Plain
+              selected: true
+              value: plainText
+            - name: richText
+              label: Rich
+              value: richText
+          fields:
+            - name: plainText
+              fieldType: text
+              label: Plain text message
+              rows: 5
+            - name: richText
+              fieldType: richText
+              label: Rich text message
+              height: 200
+actions:
+  commit: 
+    class:  info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel: 
+    class:  info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition          

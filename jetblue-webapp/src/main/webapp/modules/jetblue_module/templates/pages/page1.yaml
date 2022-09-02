@@ -1,0 +1,24 @@
+title: page1
+templateScript: /jetblue_module/templates/pages/page1.ftl
+renderType: freemarker
+dialog: jetblue_module:pages/page1
+visible: true
+areas:
+  main:
+    availableComponents:
+      main_comp:
+        id : jetblue_module:components/main_comp
+  header:
+    availableComponents:
+      header_comp:
+        id : jetblue_module:components/header_comp
+      
+  body:
+    availableComponents:
+      body_1:
+        id : jetblue_module:components/body_1
+              
+  footer:
+   availableComponents:
+     footer_comp:
+       id : jetblue_module:components/footer_comp   

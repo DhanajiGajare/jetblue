@@ -1,0 +1,4 @@
+title: body_1
+renderType: freemarker
+templateScript: /jetblue_module/templates/components/body_1.ftl
+dialog: jetblue_module:components/body_1

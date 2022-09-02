@@ -1,0 +1,4 @@
+title: footer_comp
+renderType: freemarker
+templateScript: /jetblue_module/templates/components/footer_comp.ftl
+dialog: jetblue_module:components/footer_comp

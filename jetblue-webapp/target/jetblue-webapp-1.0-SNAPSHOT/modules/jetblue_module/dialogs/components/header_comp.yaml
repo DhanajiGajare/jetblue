@@ -1,0 +1,17 @@
+form:
+  tabs:
+    - name: tabText
+      label: Text
+      fields:
+        - name: date
+          fieldType: date
+          time: false
+          type: Date
+          label: Date
+          defaultValue: now
+          
+actions:
+  commit: 
+    class:  info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel: 
+    class:  info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition          
